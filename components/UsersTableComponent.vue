@@ -7,7 +7,7 @@
 import {Vue, Component, Prop} from "vue-property-decorator";
 
 @Component({name:"UsersTable"})
-export default class UsersTableComponent extend Vue{
+export default class UsersTableComponent extends Vue{
 
 public userColums = [
  {
